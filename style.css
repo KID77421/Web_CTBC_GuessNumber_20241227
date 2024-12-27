@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Cubic';
+    src: url(./Fonts/Cubic_11.ttf);
+}
+
 * {
-    font-family: 微軟正黑體;
+    font-family: 'Cubic', 微軟正黑體;
     margin: 0;
     padding: 0;
     color: #cdcdcd;
@@ -11,7 +16,12 @@ body {
 
 header {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 600;
 }
 
 section {
@@ -19,14 +29,14 @@ section {
 }
 
 #number {
-    padding: 30px;
+    padding: 20px 30px;
     font-size: 36px;
     color: #252525;
     text-align: center;
 }
 
 button {
-    padding: 20px 80px;
+    padding: 20px 50px;
     margin-top: 20px;
     color: #252525;
     font-size: 24px;
